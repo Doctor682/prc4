@@ -1,17 +1,17 @@
-// let myImage = document.querySelector('img');
+let myImage = document.querySelector('img');
 
-// myImage.onclick = function(){
-//     let mySrc = myImage.getAttribute('src');
-//     if(mySrc === 'images/firefox-icon.png')
-//     {
-//         myHeading.innerHTML = 'Steam is cool';
-//         myImage.setAttribute('src', 'images/steam.jpg');
-//     }
-//     else{
-//         myHeading.innerHTML = 'Mozilla is cool';
-//         myImage.setAttribute('src', 'images/firefox-icon.png');
-//     }
-// }
+myImage.onclick = function(){
+    let mySrc = myImage.getAttribute('src');
+    if(mySrc === 'images/firefox-icon.png')
+    {
+        myHeading.innerHTML = 'Steam is cool';
+        myImage.setAttribute('src', 'images/steam.jpg');
+    }
+    else{
+        myHeading.innerHTML = 'Mozilla is cool';
+        myImage.setAttribute('src', 'images/firefox-icon.png');
+    }
+}
 
 let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
